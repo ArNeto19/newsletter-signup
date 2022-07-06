@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.logo {
+  width: 85%;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top-input {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle-input {
+  border-radius: 0;
+}
+
+.bottom-input {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.btn-sbt {
+  color: #fff;
+  background-color: #fd7e14;
+}
+
+.btn-sbt:hover {
+  color: #fff;
+  background-color: #C46018;
+}
