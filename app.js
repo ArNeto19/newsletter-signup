@@ -13,9 +13,9 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static(__dirname));
 
-//-- Mailchimp API -//
-var mailChimpKey = 'efe5b1fe723338414a66a7ffbaab3029-us12';
-//list ID: 5e6b1e7822
+//-- Mailchimp API
+  // mailChimpKey = 'efe5b1fe723338414a66a7ffbaab3029-us12'
+  // list ID: 5e6b1e7822
 //-- Mailchimp API -//
 
 app.get('/', function(req, res) {
